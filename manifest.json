@@ -1,12 +1,13 @@
 {
     "manifest_version": 2,
     "name": "You're still here.",
-    "version": "0.0.1",
-    "description": "Just a reminder every once in a while that you're still on Facebook/Reddit/Twitter.",
+    "version": "1.1.1",
+    "description": "Just a reminder every once in a while that you're still here.",
+    "permissions": ["storage"],
     "content_scripts": [ {
       "all_frames": false,
       "css" : ["css/style.css"],
       "js": ["js/jquery.js", "js/jquery.notification.js", "js/yourestillhere.js"],
-      "matches": ["*://twitter.com/*", "*://*.twitter.com/*", "*://facebook.com/*", "*://*.facebook.com/*", "*://reddit.com/*", "*://*.reddit.com/*"]
+      "matches": ["http://*/*", "https://*/*"]
       }]
 }
