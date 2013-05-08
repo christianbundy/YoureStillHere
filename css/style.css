@@ -1,7 +1,7 @@
 #jquery-notification {
 	background: #333;
 	border-radius: 12px;
-	padding: 20px;
+	padding: 200px;
 	cursor: pointer;
 	pointer-events:none;
 }
