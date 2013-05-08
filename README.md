@@ -1,4 +1,4 @@
-You're Still Here 1.1.1
+You're Still Here 1.2.1
 =======================
 
 Time-consuming websites suck. This Chrome extension will remind you every once in a while that you're *still* on a time-consuming website with a quick and simple dialog reminding you that **"You're still here"**.
